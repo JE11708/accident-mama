@@ -1,0 +1,9 @@
+.app-component-container {
+  display: flex;
+  position: relative;
+}
+@media(max-width: 767px) {
+  .app-component-text {
+    margin-bottom: var(--dl-space-space-unit);
+  }
+}
